@@ -9,4 +9,5 @@ class mprofile::base {
 
   class { '::motd':
     content => "This host is managed by Puppet!\n"
+  }
 }
