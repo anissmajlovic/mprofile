@@ -8,4 +8,5 @@ class mprofile::mysql::server {
   class { '::mysql::server':
     root_password           => 'passwordhash',
     remove_default_accounts => true,
+  }
 }

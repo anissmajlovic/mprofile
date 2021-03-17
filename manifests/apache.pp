@@ -9,4 +9,5 @@ class mprofile::apache {
 
   class { '::php':
     pear => true,
+  }
 }
